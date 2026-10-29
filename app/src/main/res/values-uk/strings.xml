@@ -77,12 +77,14 @@
     <string name="setting_events_show_all">Показати всі</string>
     <string name="setting_channel_events_own">Ваші зміни ніка й кіки проти вас завжди показуються.</string>
     <string name="event_joins">Входи</string>
+    <string name="event_own_joins">Ваші входи</string>
     <string name="event_parts">Виходи</string>
     <string name="event_quits">Відключення</string>
     <string name="event_nick_changes">Зміни ніка</string>
     <string name="event_topic_changes">Зміни теми</string>
     <string name="event_kicks">Кіки</string>
     <string name="event_mode_changes">Зміни режимів</string>
+    <string name="event_account_changes">Входи в акаунт</string>
     <string name="setting_hide_away_notify">Приховувати повідомлення про відсутність і повернення</string>
     <string name="setting_color_channel_events">Кольорові події каналу</string>
     <string name="setting_hide_topic_on_entry">Приховувати тему під час входу</string>

@@ -77,12 +77,14 @@
     <string name="setting_events_show_all">Показать все</string>
     <string name="setting_channel_events_own">Ваши смены ника и кики против вас всегда показываются.</string>
     <string name="event_joins">Входы</string>
+    <string name="event_own_joins">Ваши входы</string>
     <string name="event_parts">Выходы</string>
     <string name="event_quits">Отключения</string>
     <string name="event_nick_changes">Смены ника</string>
     <string name="event_topic_changes">Смены темы</string>
     <string name="event_kicks">Кики</string>
     <string name="event_mode_changes">Смены режимов</string>
+    <string name="event_account_changes">Входы в аккаунт</string>
     <string name="setting_hide_away_notify">Скрыть уведомления об отсутствии/возвращении</string>
     <string name="setting_color_channel_events">Цветные события канала</string>
     <string name="setting_hide_topic_on_entry">Скрывать тему при входе</string>

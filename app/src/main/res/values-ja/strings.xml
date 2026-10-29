@@ -77,12 +77,14 @@
     <string name="setting_events_show_all">すべて表示</string>
     <string name="setting_channel_events_own">自分のニック変更と自分へのキックは常に表示されます。</string>
     <string name="event_joins">入室</string>
+    <string name="event_own_joins">自分の参加</string>
     <string name="event_parts">退室</string>
     <string name="event_quits">終了</string>
     <string name="event_nick_changes">ニック変更</string>
     <string name="event_topic_changes">トピック変更</string>
     <string name="event_kicks">キック</string>
     <string name="event_mode_changes">モード変更</string>
+    <string name="event_account_changes">アカウントログイン</string>
     <string name="setting_hide_away_notify">離席/復帰通知を非表示</string>
     <string name="setting_color_channel_events">色付きチャンネルイベント</string>
     <string name="setting_hide_topic_on_entry">入室時にトピックを非表示</string>

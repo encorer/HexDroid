@@ -77,12 +77,14 @@
     <string name="setting_events_show_all">Mostrar todos</string>
     <string name="setting_channel_events_own">Suas próprias mudanças de apelido e as expulsões que você recebe sempre aparecem.</string>
     <string name="event_joins">Entradas</string>
+    <string name="event_own_joins">Suas entradas</string>
     <string name="event_parts">Saídas</string>
     <string name="event_quits">Desconexões</string>
     <string name="event_nick_changes">Mudanças de apelido</string>
     <string name="event_topic_changes">Mudanças de tópico</string>
     <string name="event_kicks">Expulsões</string>
     <string name="event_mode_changes">Mudanças de modo</string>
+    <string name="event_account_changes">Logins de conta</string>
     <string name="setting_hide_away_notify">Ocultar notificações de ausente/de volta</string>
     <string name="setting_color_channel_events">Eventos de canal coloridos</string>
     <string name="setting_hide_topic_on_entry">Ocultar tópico ao entrar</string>

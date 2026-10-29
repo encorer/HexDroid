@@ -77,12 +77,14 @@
     <string name="setting_events_show_all">Mostra tutti</string>
     <string name="setting_channel_events_own">I tuoi cambi di nick e i kick che ricevi sono sempre visibili.</string>
     <string name="event_joins">Ingressi</string>
+    <string name="event_own_joins">I tuoi ingressi</string>
     <string name="event_parts">Uscite</string>
     <string name="event_quits">Disconnessioni</string>
     <string name="event_nick_changes">Cambi di nick</string>
     <string name="event_topic_changes">Cambi di argomento</string>
     <string name="event_kicks">Kick</string>
     <string name="event_mode_changes">Cambi di modalità</string>
+    <string name="event_account_changes">Accessi all\'account</string>
     <string name="setting_hide_away_notify">Nascondi notifiche assente/di ritorno</string>
     <string name="setting_color_channel_events">Eventi del canale colorati</string>
     <string name="setting_hide_topic_on_entry">Nascondi argomento all\'ingresso</string>

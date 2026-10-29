@@ -54,12 +54,14 @@ internal class ChannelEventOption(
 
 internal val CHANNEL_EVENT_OPTIONS = listOf(
     ChannelEventOption(R.string.event_joins, { it.hideJoins }, { p, v -> p.copy(hideJoins = v) }),
+    ChannelEventOption(R.string.event_own_joins, { it.hideOwnJoins }, { p, v -> p.copy(hideOwnJoins = v) }),
     ChannelEventOption(R.string.event_parts, { it.hideParts }, { p, v -> p.copy(hideParts = v) }),
     ChannelEventOption(R.string.event_quits, { it.hideQuits }, { p, v -> p.copy(hideQuits = v) }),
     ChannelEventOption(R.string.event_nick_changes, { it.hideNickChanges }, { p, v -> p.copy(hideNickChanges = v) }),
     ChannelEventOption(R.string.event_topic_changes, { it.hideTopicChanges }, { p, v -> p.copy(hideTopicChanges = v) }),
     ChannelEventOption(R.string.event_kicks, { it.hideKicks }, { p, v -> p.copy(hideKicks = v) }),
     ChannelEventOption(R.string.event_mode_changes, { it.hideModeChanges }, { p, v -> p.copy(hideModeChanges = v) }),
+    ChannelEventOption(R.string.event_account_changes, { it.hideAccountChanges }, { p, v -> p.copy(hideAccountChanges = v) }),
 )
 
 /**

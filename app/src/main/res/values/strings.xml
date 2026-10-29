@@ -77,12 +77,14 @@
     <string name="setting_events_show_all">Show all</string>
     <string name="setting_channel_events_own">Your own nick changes and kicks against you are always shown.</string>
     <string name="event_joins">Joins</string>
+    <string name="event_own_joins">Your joins</string>
     <string name="event_parts">Parts</string>
     <string name="event_quits">Quits</string>
     <string name="event_nick_changes">Nick changes</string>
     <string name="event_topic_changes">Topic changes</string>
     <string name="event_kicks">Kicks</string>
     <string name="event_mode_changes">Mode changes</string>
+    <string name="event_account_changes">Account logins</string>
     <string name="setting_hide_away_notify">Hide away/back messages</string>
     <string name="setting_color_channel_events">Coloured channel events</string>
     <string name="setting_hide_topic_on_entry">Hide topic on entry</string>

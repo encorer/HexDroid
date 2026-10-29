@@ -77,12 +77,14 @@
     <string name="setting_events_show_all">모두 표시</string>
     <string name="setting_channel_events_own">내 닉네임 변경과 내가 강퇴된 경우는 항상 표시됩니다.</string>
     <string name="event_joins">입장</string>
+    <string name="event_own_joins">내 입장</string>
     <string name="event_parts">퇴장</string>
     <string name="event_quits">종료</string>
     <string name="event_nick_changes">닉네임 변경</string>
     <string name="event_topic_changes">주제 변경</string>
     <string name="event_kicks">강퇴</string>
     <string name="event_mode_changes">모드 변경</string>
+    <string name="event_account_changes">계정 로그인</string>
     <string name="setting_hide_away_notify">자리비움/복귀 알림 숨기기</string>
     <string name="setting_color_channel_events">색상이 있는 채널 이벤트</string>
     <string name="setting_hide_topic_on_entry">입장 시 주제 숨기기</string>

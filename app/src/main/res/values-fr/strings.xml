@@ -77,12 +77,14 @@
     <string name="setting_events_show_all">Tout afficher</string>
     <string name="setting_channel_events_own">Vos propres changements de pseudo et les expulsions qui vous visent s\'affichent toujours.</string>
     <string name="event_joins">Arrivées</string>
+    <string name="event_own_joins">Vos arrivées</string>
     <string name="event_parts">Départs</string>
     <string name="event_quits">Déconnexions</string>
     <string name="event_nick_changes">Changements de pseudo</string>
     <string name="event_topic_changes">Changements de sujet</string>
     <string name="event_kicks">Expulsions</string>
     <string name="event_mode_changes">Changements de mode</string>
+    <string name="event_account_changes">Connexions de compte</string>
     <string name="setting_hide_away_notify">Masquer les notifications absent/de retour</string>
     <string name="setting_color_channel_events">Événements de canal colorés</string>
     <string name="setting_hide_topic_on_entry">Masquer le sujet à l\'entrée</string>

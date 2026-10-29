@@ -77,12 +77,14 @@
     <string name="setting_events_show_all">全部显示</string>
     <string name="setting_channel_events_own">你自己的昵称变更和你被踢出始终显示。</string>
     <string name="event_joins">加入</string>
+    <string name="event_own_joins">你的加入</string>
     <string name="event_parts">离开</string>
     <string name="event_quits">退出</string>
     <string name="event_nick_changes">昵称变更</string>
     <string name="event_topic_changes">话题变更</string>
     <string name="event_kicks">踢出</string>
     <string name="event_mode_changes">模式变更</string>
+    <string name="event_account_changes">账户登录</string>
     <string name="setting_hide_away_notify">隐藏离开/归来通知</string>
     <string name="setting_color_channel_events">彩色频道事件</string>
     <string name="setting_hide_topic_on_entry">进入时隐藏话题</string>

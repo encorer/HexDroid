@@ -77,12 +77,14 @@
     <string name="setting_events_show_all">Alles tonen</string>
     <string name="setting_channel_events_own">Je eigen nickwijzigingen en kicks tegen jou worden altijd getoond.</string>
     <string name="event_joins">Binnenkomst</string>
+    <string name="event_own_joins">Eigen joins</string>
     <string name="event_parts">Vertrek</string>
     <string name="event_quits">Afsluiten</string>
     <string name="event_nick_changes">Nickwijzigingen</string>
     <string name="event_topic_changes">Onderwerpwijzigingen</string>
     <string name="event_kicks">Kicks</string>
     <string name="event_mode_changes">Moduswijzigingen</string>
+    <string name="event_account_changes">Accountaanmeldingen</string>
     <string name="setting_hide_away_notify">Afwezig/terug-meldingen verbergen</string>
     <string name="setting_color_channel_events">Gekleurde kanaalgebeurtenissen</string>
     <string name="setting_hide_topic_on_entry">Onderwerp bij binnenkomst verbergen</string>

@@ -342,6 +342,8 @@ class SettingsRepository(private val ctx: Context) {
                 hideTopicChanges = o.optBoolean("hideTopicChanges", false),
                 hideKicks = o.optBoolean("hideKicks", false),
                 hideModeChanges = o.optBoolean("hideModeChanges", false),
+                hideAccountChanges = o.optBoolean("hideAccountChanges", false),
+                hideOwnJoins = o.optBoolean("hideOwnJoins", false),
                 smartFilter = o.optBoolean("smartFilter", false),
                 smartFilterMinutes = o.optInt("smartFilterMinutes", 10).coerceIn(1, 60),
                 hideHostnames = o.optBoolean("hideHostnames", false),
@@ -468,6 +470,8 @@ class SettingsRepository(private val ctx: Context) {
         o.put("hideTopicChanges", s.hideTopicChanges)
         o.put("hideKicks", s.hideKicks)
         o.put("hideModeChanges", s.hideModeChanges)
+        o.put("hideAccountChanges", s.hideAccountChanges)
+        o.put("hideOwnJoins", s.hideOwnJoins)
         o.put("smartFilter", s.smartFilter)
         o.put("smartFilterMinutes", s.smartFilterMinutes)
         o.put("hideHostnames", s.hideHostnames)

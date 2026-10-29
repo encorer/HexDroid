@@ -77,12 +77,14 @@
     <string name="setting_events_show_all">Tümünü göster</string>
     <string name="setting_channel_events_own">Kendi takma ad değişiklikleriniz ve sizin atılmanız her zaman gösterilir.</string>
     <string name="event_joins">Girişler</string>
+    <string name="event_own_joins">Katılımlarınız</string>
     <string name="event_parts">Ayrılmalar</string>
     <string name="event_quits">Çıkışlar</string>
     <string name="event_nick_changes">Takma ad değişiklikleri</string>
     <string name="event_topic_changes">Konu değişiklikleri</string>
     <string name="event_kicks">Atılmalar</string>
     <string name="event_mode_changes">Mod değişiklikleri</string>
+    <string name="event_account_changes">Hesap girişleri</string>
     <string name="setting_hide_away_notify">Uzakta/geri döndü bildirimlerini gizle</string>
     <string name="setting_color_channel_events">Renkli kanal olayları</string>
     <string name="setting_hide_topic_on_entry">Girişte konuyu gizle</string>

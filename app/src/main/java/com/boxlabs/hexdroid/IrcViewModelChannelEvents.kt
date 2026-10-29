@@ -134,7 +134,7 @@ internal fun IrcViewModel.handleChannelEvent(netId: String, ev: IrcEvent) {
             // at us, so "Now talking on #chan" printed once live and again from history.
             // Someone else's join under the smart filter is held rather than shown, unless
             // they spoke here recently.
-            val joinShown = if (isSelfJoin) showsEvent(chanKey, ChannelEventKind.JOIN)
+            val joinShown = if (isSelfJoin) showsEvent(chanKey, ChannelEventKind.OWN_JOIN)
                 else showsOthersEvent(netId, chanKey, ChannelEventKind.JOIN, ev.nick, ev.timeMs)
             val holdJoin = !joinShown && !isSelfJoin && showsEvent(chanKey, ChannelEventKind.JOIN) && smartFilterOn(chanKey) &&
                 !isIgnoredSender(netId, ev.nick, IgnoreType.EVENTS, ev.userHost)

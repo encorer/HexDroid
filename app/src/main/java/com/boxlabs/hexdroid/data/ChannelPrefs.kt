@@ -32,6 +32,8 @@ data class EventPrefs(
     val hideTopicChanges: Boolean = false,
     val hideKicks: Boolean = false,
     val hideModeChanges: Boolean = false,
+    val hideAccountChanges: Boolean = false,
+    val hideOwnJoins: Boolean = false,
     /** Joins, parts, quits and nick changes show only for people who spoke recently. */
     val smartFilter: Boolean = false,
 )
@@ -62,6 +64,8 @@ fun UiSettings.eventPrefs(): EventPrefs = EventPrefs(
     hideTopicChanges = hideTopicChanges,
     hideKicks = hideKicks,
     hideModeChanges = hideModeChanges,
+    hideAccountChanges = hideAccountChanges,
+    hideOwnJoins = hideOwnJoins,
     smartFilter = smartFilter,
 )
 
@@ -73,6 +77,8 @@ fun UiSettings.withEventPrefs(p: EventPrefs): UiSettings = copy(
     hideTopicChanges = p.hideTopicChanges,
     hideKicks = p.hideKicks,
     hideModeChanges = p.hideModeChanges,
+    hideAccountChanges = p.hideAccountChanges,
+    hideOwnJoins = p.hideOwnJoins,
     smartFilter = p.smartFilter,
 )
 
@@ -98,6 +104,8 @@ object ChannelPrefsCodec {
                     put("hideTopicChanges", e.hideTopicChanges)
                     put("hideKicks", e.hideKicks)
                     put("hideModeChanges", e.hideModeChanges)
+                    put("hideAccountChanges", e.hideAccountChanges)
+                    put("hideOwnJoins", e.hideOwnJoins)
                     put("smartFilter", e.smartFilter)
                 })
             }
@@ -126,6 +134,8 @@ object ChannelPrefsCodec {
                     hideTopicChanges = e.optBoolean("hideTopicChanges", false),
                     hideKicks = e.optBoolean("hideKicks", false),
                     hideModeChanges = e.optBoolean("hideModeChanges", false),
+                    hideAccountChanges = e.optBoolean("hideAccountChanges", false),
+                    hideOwnJoins = e.optBoolean("hideOwnJoins", false),
                     smartFilter = e.optBoolean("smartFilter", false),
                 )
             }

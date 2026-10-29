@@ -77,12 +77,14 @@
     <string name="setting_events_show_all">Összes megjelenítése</string>
     <string name="setting_channel_events_own">A saját nickváltásaid és a téged érő kirúgások mindig megjelennek.</string>
     <string name="event_joins">Belépések</string>
+    <string name="event_own_joins">Saját belépések</string>
     <string name="event_parts">Kilépések</string>
     <string name="event_quits">Lecsatlakozások</string>
     <string name="event_nick_changes">Nickváltások</string>
     <string name="event_topic_changes">Topikváltások</string>
     <string name="event_kicks">Kirúgások</string>
     <string name="event_mode_changes">Módváltások</string>
+    <string name="event_account_changes">Fiókbelépések</string>
     <string name="setting_hide_away_notify">away/back üzenetek elrejtése</string>
     <string name="setting_color_channel_events">Színes csatorna események</string>
     <string name="setting_hide_topic_on_entry">Topik elrejtése belépéskor</string>

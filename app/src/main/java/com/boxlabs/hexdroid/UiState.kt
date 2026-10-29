@@ -236,6 +236,10 @@ data class UiSettings(
     val hideTopicChanges: Boolean = false,
     val hideKicks: Boolean = false,
     val hideModeChanges: Boolean = false,
+    /** Account login and logout lines from account-notify. Your own always show. */
+    val hideAccountChanges: Boolean = false,
+    /** Your own "Now talking on" line when you join. Also hidden with [hideJoins]. */
+    val hideOwnJoins: Boolean = false,
     /** Joins, parts, quits and nick changes show only for people who spoke in the last [smartFilterMinutes]. */
     val smartFilter: Boolean = false,
     val smartFilterMinutes: Int = 10,

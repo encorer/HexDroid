@@ -1,5 +1,7 @@
 # HexDroid
 
+> **This is a personal fork** of [boxlabss/HexDroid](https://github.com/boxlabss/HexDroid). It adds options to hide account login lines and your own "Now talking on" line, and fixes the keyboard reopening after switching apps. See [FORK.md](FORK.md) for details. Store links and badges below point to the original project.
+
 <div align="center">
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)

@@ -77,12 +77,14 @@
     <string name="setting_events_show_all">Alle einblenden</string>
     <string name="setting_channel_events_own">Deine eigenen Nick-Änderungen und Kicks gegen dich werden immer angezeigt.</string>
     <string name="event_joins">Joins</string>
+    <string name="event_own_joins">Eigene Beitritte</string>
     <string name="event_parts">Parts</string>
     <string name="event_quits">Quits</string>
     <string name="event_nick_changes">Nick-Änderungen</string>
     <string name="event_topic_changes">Themenänderungen</string>
     <string name="event_kicks">Kicks</string>
     <string name="event_mode_changes">Modusänderungen</string>
+    <string name="event_account_changes">Kontoanmeldungen</string>
     <string name="setting_hide_away_notify">Abwesend-/Zurück-Meldungen ausblenden</string>
     <string name="setting_color_channel_events">Farbige Kanalereignisse</string>
     <string name="setting_hide_topic_on_entry">Thema beim Betreten ausblenden</string>

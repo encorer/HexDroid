@@ -77,12 +77,14 @@
     <string name="setting_events_show_all">إظهار الكل</string>
     <string name="setting_channel_events_own">تغييرات اسمك وطردك من القناة تظهر دائماً.</string>
     <string name="event_joins">الدخول</string>
+    <string name="event_own_joins">انضماماتك</string>
     <string name="event_parts">المغادرة</string>
     <string name="event_quits">الخروج</string>
     <string name="event_nick_changes">تغيير الأسماء</string>
     <string name="event_topic_changes">تغيير الموضوع</string>
     <string name="event_kicks">الطرد</string>
     <string name="event_mode_changes">تغيير الأوضاع</string>
+    <string name="event_account_changes">تسجيلات دخول الحساب</string>
     <string name="setting_hide_away_notify">إخفاء إشعارات الغياب/العودة</string>
     <string name="setting_color_channel_events">أحداث القناة الملونة</string>
     <string name="setting_hide_topic_on_entry">إخفاء الموضوع عند الدخول</string>

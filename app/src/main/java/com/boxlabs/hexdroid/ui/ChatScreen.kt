@@ -163,6 +163,8 @@ import androidx.compose.material3.ripple
 import androidx.compose.material3.surfaceColorAtElevation
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.compose.LocalLifecycleOwner
 import androidx.compose.runtime.SideEffect
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
@@ -1866,6 +1868,23 @@ fun ChatScreen(
     val uriHandler = LocalUriHandler.current
     val keyboardController = LocalSoftwareKeyboardController.current
     val focusManager = LocalFocusManager.current
+
+    // Closing the keyboard with Back or a swipe leaves the message field focused, and Android
+    // shows the keyboard again for a focused field when the app comes back to the foreground.
+    // Drop the focus when the user closes it, but not when it closes because the app is leaving.
+    val lifecycle = LocalLifecycleOwner.current.lifecycle
+    val imeInsetsForFocus = WindowInsets.ime
+    LaunchedEffect(hardwareKeyboard) {
+        if (hardwareKeyboard) return@LaunchedEffect
+        var wasOpen = false
+        snapshotFlow { imeInsetsForFocus.getBottom(density) > 0 }.collect { open ->
+            if (wasOpen && !open && inputHasFocus && lifecycle.currentState.isAtLeast(Lifecycle.State.RESUMED)) {
+                focusManager.clearFocus()
+            }
+            wasOpen = open
+        }
+    }
+
     val (baseWeight, baseStyle) = when (state.settings.chatFontStyle) {
         ChatFontStyle.REGULAR -> FontWeight.Normal to FontStyle.Normal
         ChatFontStyle.BOLD -> FontWeight.Bold to FontStyle.Normal

@@ -77,12 +77,14 @@
     <string name="setting_events_show_all">Pokaż wszystkie</string>
     <string name="setting_channel_events_own">Twoje zmiany nicka i wyrzucenia ciebie są zawsze widoczne.</string>
     <string name="event_joins">Wejścia</string>
+    <string name="event_own_joins">Twoje wejścia</string>
     <string name="event_parts">Wyjścia</string>
     <string name="event_quits">Rozłączenia</string>
     <string name="event_nick_changes">Zmiany nicka</string>
     <string name="event_topic_changes">Zmiany tematu</string>
     <string name="event_kicks">Wyrzucenia</string>
     <string name="event_mode_changes">Zmiany trybów</string>
+    <string name="event_account_changes">Logowania do kont</string>
     <string name="setting_hide_away_notify">Ukryj powiadomienia nieobecny/wrócił</string>
     <string name="setting_color_channel_events">Kolorowe zdarzenia kanału</string>
     <string name="setting_hide_topic_on_entry">Ukryj temat przy wejściu</string>

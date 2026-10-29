@@ -19,6 +19,7 @@
 package com.boxlabs.hexdroid
 
 import androidx.lifecycle.viewModelScope
+import com.boxlabs.hexdroid.IrcViewModel.ChannelEventKind
 import com.boxlabs.hexdroid.IrcViewModel.PendingReaction
 import com.boxlabs.hexdroid.IrcViewModel.ReactionResult
 import com.boxlabs.hexdroid.data.IgnoreType
@@ -80,6 +81,7 @@ internal fun IrcViewModel.handleStateEvent(netId: String, ev: IrcEvent) {
                 .map { it.key }
             val targets = if (affected.isNotEmpty()) affected else listOf(bufKey(netId, "*server*"))
             for (k in targets) {
+                if (!isMe && !showsEvent(k, ChannelEventKind.ACCOUNT)) continue
                 append(k, from = null, text = line, timeMs = ev.timeMs, doNotify = false, isLocal = true)
             }
         }

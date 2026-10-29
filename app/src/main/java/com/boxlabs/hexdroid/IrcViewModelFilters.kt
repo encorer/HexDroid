@@ -41,6 +41,8 @@ internal fun IrcViewModel.isHiddenEvent(p: EventPrefs, kind: ChannelEventKind): 
     ChannelEventKind.TOPIC -> p.hideTopicChanges
     ChannelEventKind.KICK -> p.hideKicks
     ChannelEventKind.MODE -> p.hideModeChanges
+    ChannelEventKind.ACCOUNT -> p.hideAccountChanges
+    ChannelEventKind.OWN_JOIN -> p.hideOwnJoins || p.hideJoins
 }
 
 /** Whether a [kind] event shows in [chanKey], ignoring the smart filter. */

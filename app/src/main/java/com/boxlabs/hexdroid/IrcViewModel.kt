@@ -3121,7 +3121,7 @@ fun startAddNetwork() {
         viewModelScope.launch { runCatching { repo.setChannelPrefs(bufferKey, cleaned) } }
     }
 
-    internal enum class ChannelEventKind { JOIN, PART, QUIT, NICK, TOPIC, KICK, MODE }
+    internal enum class ChannelEventKind { JOIN, PART, QUIT, NICK, TOPIC, KICK, MODE, ACCOUNT, OWN_JOIN }
 
     fun acceptDcc(offer: DccOffer) {
         doAcceptDccCommon(offer, resumeFrom = null)
